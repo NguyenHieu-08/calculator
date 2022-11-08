@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Ứng dụng máy tính</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <table>            
+            <tr>
+                <th colspan="2">
+                    <input id="number1" type="number" name="number1" placeholder="Nhập số thứ 1">
+                </th>
+
+                <th colspan="2">
+                    <input id="number2" type="number" name="number2" placeholder="Nhập số thứ 2">
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" onclick="add();">Add (+)</button>
+                </td>
+                
+                <td>
+                    <button type="button" onclick="sub();">Sub (-)</button>
+                </td>
+
+                <td>
+                    <button type="button" onclick="multi();">Multi (x)</button>
+                </td>
+
+                <td>
+                    <button type="button" onclick="div();">Div (/)</button>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <div id="result"></div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
